@@ -117,6 +117,32 @@ p {
   padding: 40px 60px;
 }
 
+nav {
+  padding: 15px 0;
+}
+
+ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+.active {
+  color: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   h1,
   .hero h1,
@@ -137,5 +163,14 @@ p {
   .app-description {
     padding: 0;
     text-align: center;
+  }
+
+  .logo {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  nav li {
+    padding: 6px;
   }
 }
