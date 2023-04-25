@@ -67,6 +67,11 @@ p {
   font-family: var(--p-font);
 }
 
+.content-container h3 {
+  font-family: var(--p-font);
+  font-size: 24px;
+}
+
 .content {
   margin: 30px;
 }
@@ -126,6 +131,7 @@ p {
 
   .content {
     text-align: center;
+    margin: 10px;
   }
 
   .app-description {
