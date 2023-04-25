@@ -53,6 +53,24 @@ p {
   margin: 0;
 }
 
+.content-container {
+  padding: 80px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--p-font);
+}
+
+.content {
+  margin: 30px;
+}
+
 .btn-main {
   font-family: var(--p-font);
   font-size: 18px;
@@ -97,12 +115,17 @@ p {
 @media (max-width: 960px) {
   h1,
   .hero h1,
-  h2 {
+  h2,
+  .content h1 {
     font-size: 45px;
   }
 
   .hero {
     padding: 80px, 20px;
+  }
+
+  .content {
+    text-align: center;
   }
 
   .app-description {
