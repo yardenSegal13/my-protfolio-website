@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="This ie me- Yarden Segal- Front-end developer based in The Netherlands and programmimg in HTML, CSS and JavaScript and combines other frameworks as well, such as Bootstrap ect. Check out my website and the projects I have build. Want to do a project togeter? contact me through my contact me page."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,11 +32,37 @@
     ></script>
   </head>
   <body>
-    <div class="container content-container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h1 class="logo d-none d-lg-flex">
+          <a href="/" title="Yarden Segal">Yarden Segal</a>
+        </h1>
+        <h1 class="logo d-flex d-lg-none">
+          <a href="/" title="Yarden Segal">YS</a>
+        </h1>
+        <ul>
+          <li><a href="/" title="Home page"> Home </a></li>
+          <li>
+            <a href="/about.html" class="active" title="About Yarden">
+              About
+            </a>
+          </li>
+          <li><a href="/work.html" title="Yarden's work">Work </a></li>
+          <li><a href="/contact.html" title="Contact Yarden"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container content-container about-container">
       <div class="row">
         <div class="col-lg-6">
           <div class="img-background">
-            <img src="/images/me.jpg" alt="" class="img-fluid rounded" />
+            <img
+              src="/images/me.jpg"
+              alt="Yarden's-photo"
+              class="img-fluid rounded"
+              title="Yarden's photo"
+            />
           </div>
         </div>
         <div class="col-lg-6">
@@ -47,11 +76,47 @@
               are open-sourced on GitHub.
             </p>
             <div>
-              <a href="" class="btn btn-main">View my projects</a>
+              <a href="/work.html" class="btn btn-main">View my projects</a>
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between d-none d-lg-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">
+              Let's work togeter and convert your ideas from a dream to reality
+            </p>
+          </div>
+          <div class="mt-3">
+            <a href="/contact.html" class="btn btn-main" title="Contact Yarden"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="email-link d-flex justify-content-center">
+          <a href="mailto:yarden.segal@gmail.com" title="Email Yarden"
+            >yarden@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/yardenSegal13"
+            target="_blank"
+            title="Yarden's GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yarden-segal-56b79817a/"
+            target="_blank"
+            title="Yarden's LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

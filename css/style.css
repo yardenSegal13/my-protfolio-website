@@ -33,6 +33,32 @@ p {
   line-height: 2;
 }
 
+nav {
+  padding: 15px 0;
+}
+
+ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav li a:hover,
+.active {
+  color: var(--primary-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -58,7 +84,7 @@ p {
 }
 
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -117,34 +143,16 @@ p {
   border-radius: 4px;
 }
 
-.app-description {
-  padding: 40px 60px;
-}
-
-nav {
-  padding: 15px 0;
-}
-
-ul {
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 50px;
-  padding: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
+.work-projects {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-.active {
-  color: var(--primary-color);
+.work-projects:hover {
+  filter: saturate(170%);
+}
+
+.app-description {
+  padding: 40px 60px;
 }
 
 footer {

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yarden Segal- Front-end developer based in The Netherlands. Check out the projects I have build so far, but it keeps on updating, so stay tuned."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,18 +31,43 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h1 class="logo d-none d-lg-flex">
+          <a href="/" title="Yarden Segal">Yarden Segal</a>
+        </h1>
+        <h1 class="logo d-flex d-lg-none">
+          <a href="/" title="Yarden Segal">YS</a>
+        </h1>
+        <ul>
+          <li><a href="/" title="Home page"> Home </a></li>
+          <li><a href="/about.html" title="About Yarden"> About </a></li>
+          <li>
+            <a href="/work.html" class="active" title="Yarden's work">Work </a>
+          </li>
+          <li><a href="/contact.html" title="Contact Yarden"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on:</h1>
         <div class="row g-5 mb-4">
           <div class="col-lg-6">
             <div class="img-background mb-3">
-              <img
-                src="/images/chocolate-project.png"
-                alt=""
-                class="img-fluid rounded shadow"
-              />
+              <a
+                href="https://melodic-nougat-d6690f.netlify.app/"
+                target="_blank"
+                class="work-projects"
+              >
+                <img
+                  src="/images/chocolate-project.png"
+                  alt="chocolate-project-photo"
+                  class="img-fluid rounded shadow"
+                  title="Chocolate page"
+              /></a>
             </div>
             <h3 class="text-center mb-0">Chocolate page</h3>
             <p class="text-center text-muted">
@@ -47,11 +76,17 @@
           </div>
           <div class="col-lg-6">
             <div class="img-background mb-3">
-              <img
-                src="/images/climbing-project.png"
-                alt=""
-                class="img-fluid rounded shadow"
-              />
+              <a
+                href="https://leafy-jalebi-4129e4.netlify.app/"
+                target="_blank"
+                class="work-projects"
+              >
+                <img
+                  src="/images/climbing-project.png"
+                  alt="climbing-project-photo"
+                  class="img-fluid rounded shadow"
+                  title="Climbing page"
+              /></a>
             </div>
             <h3 class="text-center mb-0">Climbing page</h3>
             <p class="text-center text-muted">
@@ -63,11 +98,17 @@
         <div class="row g-5">
           <div class="col-lg-6">
             <div class="img-background mb-3">
-              <img
-                src="/images/weather-app.png"
-                alt=""
-                class="img-fluid rounded shadow"
-              />
+              <a
+                href="https://benevolent-queijadas-97b1fe.netlify.app/"
+                target="_blank"
+                class="work-projects"
+              >
+                <img
+                  src="/images/weather-app.png"
+                  alt="weather-app-photo"
+                  class="img-fluid rounded shadow"
+                  title="Weather app"
+              /></a>
             </div>
             <h3 class="text-center mb-0">Weather app</h3>
             <p class="text-center text-muted">
@@ -76,11 +117,16 @@
           </div>
           <div class="col-lg-6">
             <div class="img-background mb-3">
-              <img
-                src="/images/world-clock.png"
-                alt=""
-                class="img-fluid rounded shadow"
-              />
+              <a
+                href="https://silver-tapioca-74026e.netlify.app/"
+                target="_blank"
+                class="work-projects"
+                ><img
+                  src="/images/world-clock.png"
+                  alt="world-clock-photo"
+                  class="img-fluid rounded shadow"
+                  title="World clock app"
+              /></a>
             </div>
             <h3 class="text-center mb-0">World clock</h3>
             <p class="text-center text-muted">
@@ -89,6 +135,42 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between d-none d-lg-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">
+              Let's work togeter and convert your ideas from a dream to reality
+            </p>
+          </div>
+          <div class="mt-3">
+            <a href="/contact.html" class="btn btn-main" title="Contact Yarden"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="email-link d-flex justify-content-center">
+          <a href="mailto:yarden.segal@gmail.com" title="Email Yarden"
+            >yarden@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/yardenSegal13"
+            target="_blank"
+            title="Yarden's GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yarden-segal-56b79817a/"
+            target="_blank"
+            title="Yarden's LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
