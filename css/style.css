@@ -19,8 +19,14 @@ h6 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .hero {
@@ -54,4 +60,53 @@ p {
   line-height: 27px;
   color: white;
   background-color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-main:hover {
+  color: black;
+  background-color: var(--primary-color);
+}
+
+.btn-project {
+  font-family: var(--p-font);
+  font-size: 18px;
+  padding: 18px 30px;
+  line-height: 27px;
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-project:hover {
+  color: black;
+  border: 1px solid var(--primary-color);
+}
+
+.img-background {
+  padding: 50px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
+
+.app-description {
+  padding: 40px 60px;
+}
+
+@media (max-width: 960px) {
+  h1,
+  .hero h1,
+  h2 {
+    font-size: 45px;
+  }
+
+  .hero {
+    padding: 80px, 20px;
+  }
+
+  .app-description {
+    padding: 0;
+    text-align: center;
+  }
 }
