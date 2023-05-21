@@ -167,7 +167,7 @@ footer .contact-box {
   padding: 50px 100px;
   border-radius: 4px;
 }
-footer .email-link a {
+footer .email-adress {
   text-decoration: none;
   color: black;
   font-family: var(--p-font);
@@ -175,10 +175,6 @@ footer .email-link a {
   font-size: 24px;
   margin: 60px;
   transition: all 100ms ease-in-out;
-}
-
-footer .email-link a:hover {
-  color: var(--primary-color);
 }
 
 footer .social-links {
